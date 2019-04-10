@@ -1,0 +1,31 @@
+{
+  "name": "ts-node-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./app/app.ts",
+    "prod": "tsc && node ./build/app.js"
+  },
+  "author": "Aamer Sohel <aamersohel7@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "express": "^4.16.4",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aamersohel/ts-node-starter.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "node-ts",
+    "server",
+    "javascript"
+  ]
+}
